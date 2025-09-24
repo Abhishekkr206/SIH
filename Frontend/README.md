@@ -1,16 +1,48 @@
-# React + Vite
+# live Demo - https://sihprototype-arsd.vercel.app/
+# Smart Traffic Management System for Urban Congestion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚦 Overview
+This project is an **AI-powered Smart Traffic Management System** designed to reduce urban congestion by dynamically optimizing traffic signal timings. It simulates real-time traffic data, prioritizes emergency vehicles, and provides actionable insights via a dashboard.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 Features
+- **Real-time Traffic Monitoring**: Uses simulated CCTV and IoT sensor data to detect vehicle counts and lane congestion.  
+- **Adaptive Signal Control**: Reinforcement Learning or rule-based logic adjusts signal durations dynamically.  
+- **Emergency Vehicle Priority**: Detects ambulances, fire trucks, and police vehicles to clear their route instantly.  
+- **Dashboard**: Central interface for traffic authorities showing live traffic, signal timings, and alerts.  
+- **API Integration**: Provides real-time traffic data for third-party apps (like Google Maps) for better route suggestions.  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Impact & Benefits
+- **Commuters**: Reduced waiting times, smoother travel, optimized GPS routing.  
+- **Authorities**: Real-time monitoring and manual override capabilities.  
+- **Emergency Services**: Faster response times for ambulances and fire brigades.  
+- **City Planners / Apps**: API enables improved route planning and traffic flow analysis.  
+- **Environmental & Economic**: Less fuel wastage, lower emissions, shorter commute times.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Feasibility & Demo Approach
+- Fully **software-based simulation** using random/hardcoded traffic data.  
+- **Dashboard + signal logic** implemented in React + JS/Python.  
+- RL timing  
+- Single intersection demo with manual triggers for emergency vehicles.  
+- **API endpoint** serves simulated traffic data to external apps.  
+
+---
+
+**Architecture Diagram:**
+![Alt Text](./src/assets/img.jpeg)
+
+---
+
+
+## 📌 How to Run the Demo
+1. Clone the repository:  
+   ```bash
+    git clone https://github.com/Abhishekkr206/SIH.git
+    cd frontend
+    npm install
+    npm run dev
