@@ -34,7 +34,7 @@ This project is an **AI-powered Smart Traffic Management System** designed to re
 ---
 
 **Architecture Diagram:**
-![Alt Text](./src/assets/img.jpeg)
+![Alt Text](./Frontend/src/assets/img.jpeg)
 
 ---
 
